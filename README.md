@@ -22,6 +22,10 @@ Windows
 Hackone.exe > res.txt
 ```
 
+## Demo
+
+![demo](image/result.png)
+
 ## Theory
 
 - version < 80
