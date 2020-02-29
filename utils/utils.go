@@ -1,6 +1,7 @@
 package utils
 
 import (
+	"fmt"
 	"io"
 	"log"
 	"os"
@@ -60,4 +61,18 @@ func Merge(res1, res2 map[string](map[string]string)) map[string](map[string]str
 	}
 
 	return res1
+}
+
+func FormatOutput(total_res map[string](map[string]string), pwd_db string) error{
+	for k,v := range total_res{
+		fmt.Printf("====================\n")
+		fmt.Printf("Url: %s\nUsername: %s\nPassword:%s\n\n", k, v["username"], v["password"])
+	}
+
+	fmt.Printf("\nTotal Auth: %d", len(total_res))
+	err := os.Remove(pwd_db)
+	if err != nil{
+		return err
+	}
+	return nil
 }
