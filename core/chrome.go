@@ -1,7 +1,7 @@
 package core
 
 import (
-	"HackChrome80/utils"
+	"HackChrome/utils"
 	"database/sql"
 	"fmt"
 )

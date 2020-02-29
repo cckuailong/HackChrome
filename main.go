@@ -1,8 +1,8 @@
 package main
 
 import (
-	"HackChrome80/core"
-	"HackChrome80/utils"
+	"HackChrome/core"
+	"HackChrome/utils"
 	"fmt"
 	_ "github.com/mattn/go-sqlite3"
 	"os"
