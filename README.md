@@ -1,5 +1,10 @@
 # HackChrome
 
+[![Build Status](https://travis-ci.com/cckuailong/HackChrome.svg?branch=master)](https://travis-ci.com/cckuailong/HackChrome)
+
+[English ReadMe](https://github.com/cckuailong/HackChrome/blob/master/README.md) || 
+[中文 ReadMe](https://github.com/cckuailong/HackChrome/blob/master/README_zh.md)
+
 Get the User:Password from Chrome(include version < 80 and version > 80)
 
 ## Chrome version Affact
