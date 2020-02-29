@@ -1,4 +1,4 @@
-module HackChrome80
+module HackChrome
 
 go 1.13
 
