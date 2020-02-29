@@ -43,11 +43,11 @@ Finally, We get the plaintext of the User:Password pairs stored in Chrome
 
 - version > 80
 
-Based on the Algorithm used by "version < 80", It use AES-GCM to encrypt the password via a master key and a nounce.
+Based on the Algorithm used by "version < 80", It use AES-GCM to encrypt the password via a <master key> and a <nounce>.
 
-The master key can be found in the "Local State" file, and can be decypted by "CryptUnprotectData" mentioned above.
+The <master key> can be found in the "Local State" file, and can be decypted by "CryptUnprotectData" mentioned above.
 
-The nounce can be found at the begin of the encrypted_password.
+The <nounce> can be found at the begin of the encrypted_password.
 
 Therefore, we can decrpted all the password.
 
