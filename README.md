@@ -56,3 +56,7 @@ Therefore, we can decrpted all the password.
 If someone update the Chrome recently, we need to find the two ways of User:Password pairs.
 
 What's more, I use some rules to merge the results into an array.
+
+## LICENSE
+
+The Project follows MIT LICENSE.
